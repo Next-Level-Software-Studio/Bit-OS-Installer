@@ -12,13 +12,16 @@ stage3/cflags: -O2 -pipe -march=x86-64
 stage3/use: -plasma mls -gnome -X -wayland selinux networkmanager -systemd verify-sig
 
 stage3/packages:
-    dev-lang/python
+    =dev-lang/python-3.14.6
     sys-libs/libsepol
     sys-libs/libselinux
     sys-libs/libsemanage
     sys-apps/checkpolicy
     sys-apps/policycoreutils
     sec-policy/selinux-base-policy
+    net-misc/wget
+    dev-vcs/git
+    app-eselect/eselect-repository
 
 
 stage3/unmerge:
