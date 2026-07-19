@@ -11,7 +11,7 @@ class GerenciadorParticoes:
         self.root.configure(bg="#f0f0f0")
 
         # Título
-        lbl_titulo = tk.Label(root, text="Onde deseja instalar o sistema?", font=("Arial", 14, "bold"), bg="#f0f0f0", fg="#003366")
+        lbl_titulo = tk.Label(root, text="Onde deseja instalar o sistema?", font=("Arial", 14, "bold"), bg="#f0f0f0", fg="#15151515")
         lbl_titulo.pack(pady=10)
 
         # Frame da Tabela
